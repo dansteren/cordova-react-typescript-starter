@@ -7,9 +7,9 @@
   "license": "MIT",
   "homepage": "./",
   "scripts": {
-    "postinstall": "cordova prepare",
+    "postinstall": "mkdir www && cordova prepare",
     "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build && cp -r ./build ./www && rm -rf ./build",
+    "build": "react-scripts-ts build && rm -rf www && mv ./build ./www ",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "android": "npm run build && cordova run android"

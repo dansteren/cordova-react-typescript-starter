@@ -23,3 +23,4 @@ yarn-error.log*
 # cordova
 platforms
 plugins
+www
