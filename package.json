@@ -15,7 +15,7 @@
     "android": "npm run build && cordova run android"
   },
   "dependencies": {
-    "cordova-android": "^7.0.0",
+    "cordova-android": "^7.1.0",
     "cordova-plugin-whitelist": "^1.3.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
